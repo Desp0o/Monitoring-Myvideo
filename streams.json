@@ -313,5 +313,192 @@
         "name": "Silk Universal",
         "base": "BASE_URL5",
         "path": "myvideo/silk_sport4/index.m3u8"
-    }
+    },
+    {
+        "name": "Silk Documentary",
+        "base": "BASE_URL8",
+        "path": "silkhollywood/index.m3u8"
+    },
+    {
+        "name": "Silk Kids",
+        "base": "BASE_URL8",
+        "path": "silkkids/index.m3u8"
+    },
+    {
+        "name": "Silk Moviecollection",
+        "base": "BASE_URL8",
+        "path": "silkmoviecollection/index.m3u8"
+    },
+    {
+        "name": "Silk Hollywood",
+        "base": "BASE_URL8",
+        "path": "silkhollywood/index.m3u8"
+    },
+    {
+        "name": "Formula new",
+        "base": "BASE_URL8",
+        "path": "formula-new/index.m3u8"
+    },
+    {
+        "name": "Comedy",
+        "base": "BASE_URL8",
+        "path": "comedy/index.m3u8"
+    },
+
+    {
+        "name": "axali2hq",
+        "base": "BASE_URL8",
+        "path": "axali2hq/index.m3u8"
+    },
+    {
+        "name": "gdstv",
+        "base": "BASE_URL8",
+        "path": "gdstv/index.m3u8"
+    },
+    {
+    "name": "tvbox-rugby",
+    "base": "BASE_URL5",
+    "path": "tvbox-rugby/index.m3u8"
+  },
+  {
+    "name": "rtv",
+    "base": "BASE_URL5",
+    "path": "rtv/index.m3u8"
+  },
+  {
+    "name": "musicbox",
+    "base": "BASE_URL4",
+    "path": "musicbox/index.m3u8"
+  },
+  {
+    "name": "agrogaremo",
+    "base": "BASE_URL4",
+    "path": "agrogaremo/index.m3u8"
+  },
+  {
+    "name": "bbb",
+    "base": "BASE_URL4",
+    "path": "bbb/index.m3u8"
+  },
+  {
+    "name": "enkibenki",
+    "base": "BASE_URL4",
+    "path": "enkibenki/index.m3u8"
+  },
+  {
+    "name": "ertsulovneba",
+    "base": "BASE_URL4",
+    "path": "ertsulovneba/index.m3u8"
+  },
+  {
+    "name": "puls",
+    "base": "BASE_URL4",
+    "path": "puls/index.m3u8"
+  },
+  {
+    "name": "stereoplus",
+    "base": "BASE_URL4",
+    "path": "stereoplus/index.m3u8"
+  },
+  {
+    "name": "toktv",
+    "base": "BASE_URL4",
+    "path": "toktv/index.m3u8"
+  },
+  {
+    "name": "positivetv",
+    "base": "BASE_URL4",
+    "path": "positivetv/index.m3u8"
+  },
+  {
+    "name": "meteo24",
+    "base": "BASE_URL4",
+    "path": "meteo24/index.m3u8"
+  },
+
+  {
+    "name": "gms",
+    "base": "BASE_URL4",
+    "path": "gms/index.m3u8"
+  },
+  {
+    "name": "chadrakitv",
+    "base": "BASE_URL4",
+    "path": "chadrakitv/index.m3u8"
+  },
+  {
+    "name": "greentv",
+    "base": "BASE_URL4",
+    "path": "greentv/index.m3u8"
+  },
+  {
+    "name": "tv5geo",
+    "base": "BASE_URL4",
+    "path": "tv5geo/index.m3u8"
+  },
+  {
+    "name": "akhalitv",
+    "base": "BASE_URL4",
+    "path": "akhalitv/index.m3u8"
+  },
+  {
+    "name": "ctv",
+    "base": "BASE_URL4",
+    "path": "ctv/index.m3u8"
+  },
+  {
+    "name": "primetv",
+    "base": "BASE_URL4",
+    "path": "primetv/index.m3u8"
+  },
+  {
+    "name": "artarea",
+    "base": "BASE_URL6",
+    "path": "artarea/index.m3u8"
+  },
+  {
+    "name": "erimedia",
+    "base": "BASE_URL6",
+    "path": "erimedia/index.m3u8"
+  },
+  {
+    "name": "musictv",
+    "base": "BASE_URL6",
+    "path": "musictv/index.m3u8"
+  },
+  {
+    "name": "malltv",
+    "base": "BASE_URL6",
+    "path": "malltv/index.m3u8"
+  },
+  {
+    "name": "shonitv",
+    "base": "BASE_URL6",
+    "path": "shonitv/index.m3u8"
+  },
+  {
+    "name": "pktv",
+    "base": "BASE_URL6",
+    "path": "pktv/index.m3u8"
+  },
+  {
+    "name": "o2",
+    "base": "BASE_URL6",
+    "path": "o2/index.m3u8"
+  },
+  {
+    "name": "tafutv",
+    "base": "BASE_URL6",
+    "path": "tafutv/index.m3u8"
+  },
+  {
+    "name": "plustv",
+    "base": "BASE_URL6",
+    "path": "plustv/index.m3u8"
+  },
+  {
+    "name": "tvc",
+    "base": "BASE_URL1",
+    "path": "tvc/index.m3u8"
+  }
 ]
