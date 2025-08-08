@@ -147,7 +147,7 @@ def monitor_streams():
         success = take_screenshot(url, screenshot_file)
         if not success:
             print(f"{name} ❌ სტრიმი მიუწვდომელია")
-            messages.append(f"{name} ⚠️")
+            messages.append(f"⚠️ {name}")
             continue
 
         if is_stream_down_hash(screenshot_file, reference_imgs):
@@ -157,11 +157,9 @@ def monitor_streams():
             print(f"{name} 🟢")
             # messages.append(f"{name} 🟢")
 
-    # 🧹 წაშალე დროებითი სქრინი
     if os.path.exists(screenshot_file):
         os.remove(screenshot_file)
 
-    # 📨 გაგზავნა დისკორდზე
     send_to_discord("\n".join(messages))
 
 if __name__ == "__main__":
