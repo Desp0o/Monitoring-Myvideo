@@ -107,7 +107,7 @@ def monitor_streams():
         success = take_screenshot(url, screenshot_file)
         if not success:
             print(f"{name} ❌ სტრიმი მიუწვდომელია")
-            messages.append(f"⚠️ {name}")
+            # messages.append(f"⚠️ {name}")
             continue
 
         if is_stream_down_hash(screenshot_file, reference_imgs):
