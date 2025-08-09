@@ -104,7 +104,7 @@ def monitor_streams():
 
     totalDown = 0
     totalActive = 0
-    totalUnreached = o
+    totalUnreached = 0
     
     for name, url in streams.items():
         print(f"\n🔍 {name} შემოწმება...")
