@@ -126,7 +126,7 @@ def monitor_streams():
         os.remove(screenshot_file)
 
     messages.append(" ")
-    messages.append(f"✅ გათიშული არხები: {totalActive}" )
+    messages.append(f"✅ აქტიური არხები: {totalActive}" )
     messages.append(f"❌ გათიშული არხები: {totalDown}" )
      
     send_to_discord("\n".join(messages))
