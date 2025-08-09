@@ -12,22 +12,26 @@ import json
 
 load_dotenv()
 
-BASE_URL = os.getenv("BASE_URL")
+BASE_URL0 = os.getenv("BASE_URL0")
 BASE_URL1 = os.getenv("BASE_URL1")
+BASE_URL2 = os.getenv("BASE_URL2")
 BASE_URL4 = os.getenv("BASE_URL4")
 BASE_URL5 = os.getenv("BASE_URL5")
 BASE_URL6 = os.getenv("BASE_URL6")
 BASE_URL8 = os.getenv("BASE_URL8")
+BASE_URL9 = os.getenv("BASE_URL9")
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 # ✅ სტრიმების სია
 base_urls = {
-     "BASE_URL": BASE_URL,
+    "BASE_URL0": BASE_URL0,
     "BASE_URL1": BASE_URL1,
+    "BASE_URL2": BASE_URL2,
     "BASE_URL4": BASE_URL4,
     "BASE_URL5": BASE_URL5,
     "BASE_URL6": BASE_URL6,
-    "BASE_URL8": BASE_URL8
+    "BASE_URL8": BASE_URL8,
+    "BASE_URL9": BASE_URL9,
 }
 
 # JSON ჩატვირთვა
