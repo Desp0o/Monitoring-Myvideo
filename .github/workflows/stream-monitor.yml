@@ -33,8 +33,14 @@ jobs:
 
       - name: Create .env file from secrets
         run: |
-          echo "BASE_URL=${{ secrets.BASE_URL }}" >> .env
+          echo "BASE_URL0=${{ secrets.BASE_URL }}" >> .env
+          echo "BASE_URL1=${{ secrets.BASE_URL5 }}" >> .env
+          echo "BASE_URL2=${{ secrets.BASE_URL }}" >> .env
+          echo "BASE_URL4=${{ secrets.BASE_URL5 }}" >> .env
           echo "BASE_URL5=${{ secrets.BASE_URL5 }}" >> .env
+          echo "BASE_URL6=${{ secrets.BASE_URL5 }}" >> .env
+          echo "BASE_URL8=${{ secrets.BASE_URL5 }}" >> .env
+          echo "BASE_URL9=${{ secrets.BASE_URL5 }}" >> .env
           echo "DISCORD_WEBHOOK_URL=${{ secrets.DISCORD_WEBHOOK_URL }}" >> .env
 
       - name: Print current UTC time (debug)
