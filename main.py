@@ -101,6 +101,8 @@ def monitor_streams():
     messages = ["⎯ ⎯"]
     messages.append(f"🔄 შემოწმება: {timestamp} ⏰")
     messages.append(" ")
+
+    totalCount = 0
     
     for name, url in streams.items():
         print(f"\n🔍 {name} შემოწმება...")
@@ -112,6 +114,7 @@ def monitor_streams():
 
         if is_stream_down_hash(screenshot_file, reference_imgs):
             print(f"{name} 🔴")
+            totalCount += 1
             messages.append(f"🔴 {name}")
         else:
             print(f"{name} 🟢")
@@ -120,6 +123,9 @@ def monitor_streams():
     if os.path.exists(screenshot_file):
         os.remove(screenshot_file)
 
+    messages.append(" ")
+    messages.append(f"📺 გათიშული არხები: {totalCount}" )
+     
     send_to_discord("\n".join(messages))
 
 if __name__ == "__main__":
