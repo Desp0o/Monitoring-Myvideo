@@ -104,6 +104,7 @@ def monitor_streams():
 
     totalDown = 0
     totalActive = 0
+    totalUnreached = o
     
     for name, url in streams.items():
         print(f"\n🔍 {name} შემოწმება...")
@@ -111,6 +112,7 @@ def monitor_streams():
         if not success:
             print(f"{name} ❌ სტრიმი მიუწვდომელია")
             # messages.append(f"⚠️ {name}")
+            totalUnreached += 1
             continue
 
         if is_stream_down_hash(screenshot_file, reference_imgs):
@@ -126,8 +128,9 @@ def monitor_streams():
         os.remove(screenshot_file)
 
     messages.append(" ")
-    messages.append(f"✅ აქტიური არხები: {totalActive}" )
-    messages.append(f"❌ გათიშული არხები: {totalDown}" )
+    messages.append(f"✅ აქტიური: {totalActive}" )
+    messages.append(f"⚠️ მიუწვდომელი: {totalUnreached}" )
+    messages.append(f"❌ გათიშული: {totalDown}" )
      
     send_to_discord("\n".join(messages))
 
