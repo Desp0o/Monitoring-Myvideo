@@ -1,0 +1,327 @@
+[
+    {
+        "name": "kvartal95",
+        "base": "BASE_URL7",
+        "path": "kvartal95/index.m3u8"
+    },
+    {
+        "name": "radnoekino",
+        "base": "BASE_URL7",
+        "path": "radnoekino/index.m3u8"
+    },
+    {
+        "name": "arirang",
+        "base": "BASE_URL7",
+        "path": "arirang/index.m3u8"
+    },
+    {
+        "name": "black",
+        "base": "BASE_URL7",
+        "path": "black/index.m3u8"
+    },
+    {
+        "name": "currenttime",
+        "base": "BASE_URL7",
+        "path": "currenttime/index.m3u8"
+    },
+    {
+        "name": "ictv",
+        "base": "BASE_URL7",
+        "path": "ictv/index.m3u8"
+    },
+    {
+        "name": "jivi",
+        "base": "BASE_URL7",
+        "path": "jivi/index.m3u8"
+    },
+    {
+        "name": "khlprime",
+        "base": "BASE_URL7",
+        "path": "khlprime/index.m3u8"
+    },
+    {
+        "name": "m2",
+        "base": "BASE_URL7",
+        "path": "m2/index.m3u8"
+    },
+    {
+        "name": "muzhskoy",
+        "base": "BASE_URL7",
+        "path": "muzhskoy/index.m3u8"
+    },
+    {
+        "name": "malysh",
+        "base": "BASE_URL7",
+        "path": "malysh/index.m3u8"
+    },
+    {
+        "name": "nikikids",
+        "base": "BASE_URL7",
+        "path": "nikikids/index.m3u8"
+    },
+    {
+        "name": "nikijunior",
+        "base": "BASE_URL7",
+        "path": "nikijunior/index.m3u8"
+    },
+    {
+        "name": "perviyvegtariansky",
+        "base": "BASE_URL7",
+        "path": "perviyvegtariansky/index.m3u8"
+    },
+    {
+        "name": "red",
+        "base": "BASE_URL7",
+        "path": "red/index.m3u8"
+    },
+    {
+        "name": "scifi",
+        "base": "BASE_URL7",
+        "path": "scifi/index.m3u8"
+    },
+    {
+        "name": "taynigalaktiki",
+        "base": "BASE_URL7",
+        "path": "taynigalaktiki/index.m3u8"
+    },
+    {
+        "name": "viasat1000",
+        "base": "BASE_URL7",
+        "path": "viasat1000/index.m3u8"
+    },
+    {
+        "name": "zogorodnayajizn",
+        "base": "BASE_URL7",
+        "path": "zogorodnayajizn/index.m3u8"
+    },
+    {
+        "name": "bollywoodhd",
+        "base": "BASE_URL7",
+        "path": "bollywoodhd/index.m3u8"
+    },
+    {
+        "name": "zeetv",
+        "base": "BASE_URL7",
+        "path": "zeetv/index.m3u8"
+    },
+    {
+        "name": "bbc",
+        "base": "BASE_URL7",
+        "path": "bbc/index.m3u8"
+    },
+    {
+        "name": "amedia2",
+        "base": "BASE_URL7",
+        "path": "amedia2/index.m3u8"
+    },
+    {
+        "name": "kinoujas",
+        "base": "BASE_URL7",
+        "path": "kinoujas/index.m3u8"
+    },
+    {
+        "name": "kuxnia",
+        "base": "BASE_URL7",
+        "path": "kuxnia/index.m3u8"
+    },
+    {
+        "name": "1plus1international",
+        "base": "BASE_URL7",
+        "path": "1plus1international/index.m3u8"
+    },
+    {
+        "name": "kvntv",
+        "base": "BASE_URL7",
+        "path": "kvntv/index.m3u8"
+    },
+    {
+        "name": "ktoestkto",
+        "base": "BASE_URL7",
+        "path": "ktoestkto/index.m3u8"
+    },
+    {
+        "name": "viasatsport",
+        "base": "BASE_URL7",
+        "path": "viasatsport/index.m3u8"
+    },
+    {
+        "name": "kinomiks",
+        "base": "BASE_URL2",
+        "path": "kinomiks/index.m3u8"
+    },
+    {
+        "name": "nashanovoekino",
+        "base": "BASE_URL2",
+        "path": "nashanovoekino/index.m3u8"
+    },
+    {
+        "name": "kinosvidanie",
+        "base": "BASE_URL2",
+        "path": "kinosvidanie/index.m3u8"
+    },
+    {
+        "name": "kinohit",
+        "base": "BASE_URL2",
+        "path": "kinohit/index.m3u8"
+    },
+    {
+        "name": "kinosemya",
+        "base": "BASE_URL2",
+        "path": "kinosemya/index.m3u8"
+    },
+    {
+        "name": "fenikspluskino",
+        "base": "BASE_URL2",
+        "path": "fenikspluskino/index.m3u8"
+    },
+    {
+        "name": "perec",
+        "base": "BASE_URL2",
+        "path": "perec/index.m3u8"
+    },
+    {
+        "name": "viasatnat",
+        "base": "BASE_URL2",
+        "path": "viasatnat/index.m3u8"
+    },
+    {
+        "name": "viasathist",
+        "base": "BASE_URL2",
+        "path": "viasathist/index.m3u8"
+    },
+    {
+        "name": "viasatexp",
+        "base": "BASE_URL2",
+        "path": "viasatexp/index.m3u8"
+    },
+    {
+        "name": "mezzo",
+        "base": "BASE_URL2",
+        "path": "mezzo/index.m3u8"
+    },
+    {
+        "name": "friday",
+        "base": "BASE_URL2",
+        "path": "friday/index.m3u8"
+    },
+    {
+        "name": "auto24",
+        "base": "BASE_URL2",
+        "path": "auto24/index.m3u8"
+    },
+    {
+        "name": "zoo",
+        "base": "BASE_URL2",
+        "path": "zoo/index.m3u8"
+    },
+    {
+        "name": "oruzhie",
+        "base": "BASE_URL2",
+        "path": "oruzhie/index.m3u8"
+    },
+    {
+        "name": "m1",
+        "base": "BASE_URL2",
+        "path": "m1/index.m3u8"
+    },
+    {
+        "name": "kinopremyerahd",
+        "base": "BASE_URL1",
+        "path": "kinopremyerahd/index.m3u8"
+    },
+    {
+        "name": "tv1000rukino",
+        "base": "BASE_URL1",
+        "path": "tv1000rukino/index.m3u8"
+    },
+    {
+        "name": "kinokomediya",
+        "base": "BASE_URL1",
+        "path": "kinokomediya/index.m3u8"
+    },
+    {
+        "name": "mir",
+        "base": "BASE_URL1",
+        "path": "mir/index.m3u8"
+    },
+    {
+        "name": "mir24",
+        "base": "BASE_URL1",
+        "path": "mir24/index.m3u8"
+    },
+    {
+        "name": "kinoseria",
+        "base": "BASE_URL1",
+        "path": "kinoseria/index.m3u8"
+    },
+    {
+        "name": "indiyskoekino",
+        "base": "BASE_URL1",
+        "path": "indiyskoekino/index.m3u8"
+    },
+    {
+        "name": "hdlife",
+        "base": "BASE_URL1",
+        "path": "hdlife/index.m3u8"
+    },
+    {
+        "name": "davinci",
+        "base": "BASE_URL1",
+        "path": "davinci/index.m3u8"
+    },
+    {
+        "name": "365day",
+        "base": "BASE_URL1",
+        "path": "365day/index.m3u8"
+    },
+    {
+        "name": "interesnoetv",
+        "base": "BASE_URL1",
+        "path": "interesnoetv/index.m3u8"
+    },
+    {
+        "name": "autoplus",
+        "base": "BASE_URL1",
+        "path": "autoplus/index.m3u8"
+    },
+    {
+        "name": "amedia",
+        "base": "BASE_URL1",
+        "path": "amedia/index.m3u8"
+    },
+    {
+        "name": "amediapremium",
+        "base": "BASE_URL1",
+        "path": "amediapremium/index.m3u8"
+    },
+    {
+        "name": "amediahit",
+        "base": "BASE_URL1",
+        "path": "amediahit/index.m3u8"
+    },
+    {
+        "name": "domashni",
+        "base": "BASE_URL1",
+        "path": "domashni/index.m3u8"
+    },
+    {
+        "name": "nostalgy",
+        "base": "BASE_URL1",
+        "path": "nostalgy/index.m3u8"
+    },
+    {
+        "name": "rusilluzion",
+        "base": "BASE_URL1",
+        "path": "rusilluzion/index.m3u8"
+    },
+    {
+        "name": "illuzionplus",
+        "base": "BASE_URL1",
+        "path": "illuzionplus/index.m3u8"
+    },
+    {
+        "name": "eurokino",
+        "base": "BASE_URL1",
+        "path": "eurokino/index.m3u8"
+    }
+]
