@@ -215,11 +215,6 @@
         "path": "gncc-toktv/index.m3u8"
     },
     {
-        "name": "atv12parvana",
-        "base": "BASE_URL9",
-        "path": "gncc-atv12parvana/index.m3u8"
-    },
-    {
         "name": "girchitv",
         "base": "BASE_URL9",
         "path": "gncc-girchitv/index.m3u8"
