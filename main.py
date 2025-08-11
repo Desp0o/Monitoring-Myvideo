@@ -21,6 +21,7 @@ BASE_URL6 = os.getenv("BASE_URL6")
 BASE_URL8 = os.getenv("BASE_URL8")
 BASE_URL9 = os.getenv("BASE_URL9")
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
+WEB_DOMAIN = os.getenv("WEB_DOMAIN")
 
 # ✅ სტრიმების სია
 base_urls = {
@@ -111,18 +112,20 @@ def monitor_streams():
     totalUnreached = 0
     
     for name, url in streams.items():
+        base_key = next((item["base"] for item in streams_data if item["name"] == name), None)
+
         print(f"\n🔍 {name} შემოწმება...")
         success = take_screenshot(url, screenshot_file)
         if not success:
             print(f"{name} ❌ სტრიმი მიუწვდომელია")
-            # messages.append(f"⚠️ {name}")
+            # messages.append(f"⚠️ {name} \n {WEB_DOMAIN}{name} \n {base_urls.get(base_key)} \n")
             totalUnreached += 1
             continue
 
         if is_stream_down_hash(screenshot_file, reference_imgs):
             print(f"{name} 🔴")
             totalDown += 1
-            messages.append(f"🔴 {name}")
+            messages.append(f"🔴 {name} \n {WEB_DOMAIN}{name} \n {base_urls.get(base_key)} \n")
         else:
             print(f"{name} 🟢")
             totalActive += 1

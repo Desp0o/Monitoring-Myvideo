@@ -42,6 +42,7 @@ jobs:
           echo "BASE_URL8=${{ secrets.BASE_URL8 }}" >> .env
           echo "BASE_URL9=${{ secrets.BASE_URL9 }}" >> .env
           echo "DISCORD_WEBHOOK_URL=${{ secrets.DISCORD_WEBHOOK_URL }}" >> .env
+          echo "WEB_DOMAIN=${{ secrets.WEB_DOMAIN }}" >> .env
 
       - name: Print current UTC time (debug)
         run: date -u

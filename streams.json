@@ -1,191 +1,176 @@
 [
     {
-        "name": "მთავარი",
-        "base": "BASE_URL9",
-        "path": "gncc-mtavari/index.m3u8"
-    },
-    {
-        "name": "TV პირველი",
+        "name": "pirvelitv",
         "base": "BASE_URL9",
         "path": "gncc-pirvelitv/index.m3u8"
     },
     {
-        "name": "ფორმულა",
+        "name": "formula",
         "base": "BASE_URL9",
         "path": "gncc-formula/index.m3u8"
     },
     {
-        "name": "GPB",
+        "name": "gpb",
         "base": "BASE_URL9",
         "path": "gncc-gpbtv/index.m3u8"
     },
     {
-        "name": "Euronews",
+        "name": "euronewsgeorgia",
         "base": "BASE_URL9",
         "path": "gncc-euronewsgeorgia/index.m3u8"
     },
     {
-        "name": "იმედი",
+        "name": "imedihd",
         "base": "BASE_URL9",
         "path": "gncc-imedi/index.m3u8"
     },
     {
-        "name": "კავკასია",
+        "name": "caucasia",
         "base": "BASE_URL9",
         "path": "gncc-caucasia/index.m3u8"
     },
     {
-        "name": "პალიტრა",
+        "name": "palitra",
         "base": "BASE_URL9",
         "path": "gncc-palitra/index.m3u8"
     },
     {
-        "name": "Altinfo",
-        "base": "BASE_URL9",
-        "path": "gncc-altinfo/index.m3u8"
-    },
-    {
-        "name": "მაესტრო",
+        "name": "maestro",
         "base": "BASE_URL9",
         "path": "gncc-maestrotv/index.m3u8"
     },
     {
-        "name": "რუსთავი 2",
+        "name": "rustavi2hqnew",
         "base": "BASE_URL9",
         "path": "gncc-rustavi2hqnew/index.m3u8"
     },
     {
-        "name": "პოსტTv",
+        "name": "postv",
         "base": "BASE_URL9",
         "path": "gncc-postv/index.m3u8"
     },
     {
-        "name": "აჭარა",
+        "name": "adjara",
         "base": "BASE_URL9",
         "path": "gncc-adjara/index.m3u8"
     },
     {
-        "name": "ობიექტრივი",
+        "name": "obiektivi",
         "base": "BASE_URL9",
         "path": "gncc-obiektivi/index.m3u8"
     },
     {
-        "name": "რადიო იმედი",
+        "name": "radioimedi",
         "base": "BASE_URL9",
         "path": "gncc-radioimedi/index.m3u8"
     },
     {
-        "name": "Abkhaz",
+        "name": "abkhaz",
         "base": "BASE_URL9",
         "path": "gncc-abkhaz/index.m3u8"
     },
     {
-        "name": "სფერო TV",
+        "name": "sferotv",
         "base": "BASE_URL9",
         "path": "gncc-sferotv/index.m3u8"
     },
     {
-        "name": "tv 24",
-        "base": "BASE_URL9",
-        "path": "gncc-tv24/index.m3u8"
-    },
-    {
-        "name": "რიონი",
+        "name": "rioni",
         "base": "BASE_URL9",
         "path": "gncc-rioni/index.m3u8"
     },
     {
-        "name": "დია TV",
+        "name": "diatv",
         "base": "BASE_URL9",
         "path": "gncc-diatv/index.m3u8"
     },
     {
-        "name": "tv 25",
+        "name": "tv25",
         "base": "BASE_URL9",
         "path": "gncc-tv25/index.m3u8"
     },
     {
-        "name": "ბათუნუ",
+        "name": "batumitv",
         "base": "BASE_URL9",
         "path": "gncc-batumitv/index.m3u8"
     },
     {
-        "name": "გურია tv",
+        "name": "guriatv",
         "base": "BASE_URL9",
         "path": "gncc-guriatv/index.m3u8"
     },
     {
-        "name": "Paravan tv",
+        "name": "parvanatv",
         "base": "BASE_URL9",
         "path": "gncc-parvanatv/index.m3u8"
     },
     {
-        "name": "აგრო tv",
+        "name": "agrotv",
         "base": "BASE_URL9",
         "path": "gncc-argotv/index.m3u8"
     },
     {
-        "name": "მეგა tv",
+        "name": "megatv",
         "base": "BASE_URL9",
         "path": "gncc-megatv/index.m3u8"
     },
     {
-        "name": "მარნეული",
+        "name": "marneulitv",
         "base": "BASE_URL9",
         "path": "gncc-marneulitv/index.m3u8"
     },
     {
-        "name": "ლილო tv",
+        "name": "lilotv",
         "base": "BASE_URL9",
         "path": "gncc-lilotv/index.m3u8"
     },
     {
-        "name": "სდასუ tv",
+        "name": "sdasutv",
         "base": "BASE_URL9",
         "path": "gncc-sdasutv/index.m3u8"
     },
     {
-        "name": "თრიალეთი",
+        "name": "trialeti",
         "base": "BASE_URL9",
         "path": "gncc-trialeti/index.m3u8"
     },
     {
-        "name": "ქართული",
+        "name": "qartuli",
         "base": "BASE_URL9",
         "path": "gncc-qartuli/index.m3u8"
     },
     {
-        "name": "ქართული არხი",
+        "name": "kartuliarkhi",
         "base": "BASE_URL9",
         "path": "gncc-kartuliarkhi/index.m3u8"
     },
     {
-        "name": "დრო TV",
+        "name": "drotv",
         "base": "BASE_URL9",
         "path": "gncc-drotv/index.m3u8"
     },
     {
-        "name": "TVmax",
+        "name": "tvmax",
         "base": "BASE_URL9",
         "path": "gncc-tvmax/index.m3u8"
     },
     {
-        "name": "plus tv",
+        "name": "plustv",
         "base": "BASE_URL9",
         "path": "gncc-plustv/index.m3u8"
     },
     {
-        "name": "BMG",
+        "name": "bmg",
         "base": "BASE_URL9",
         "path": "gncc-bmg/index.m3u8"
     },
     {
-        "name": "GGTV",
+        "name": "gttv",
         "base": "BASE_URL9",
         "path": "gncc-gttv/index.m3u8"
     },
     {
-        "name": "თანამგზავრი",
+        "name": "tanamgzavri",
         "base": "BASE_URL9",
         "path": "gncc-tanamgzavri/index.m3u8"
     },
@@ -210,7 +195,7 @@
         "path": "gncc-gurjaani/index.m3u8"
     },
     {
-        "name": "qvemo qartli",
+        "name": "qvemoqartli",
         "base": "BASE_URL9",
         "path": "gncc-qvemoqartli/index.m3u8"
     },
@@ -235,12 +220,12 @@
         "path": "gncc-atv12parvana/index.m3u8"
     },
     {
-        "name": "გირჩი tv",
+        "name": "girchitv",
         "base": "BASE_URL9",
         "path": "gncc-girchitv/index.m3u8"
     },
     {
-        "name": "ეგრისი tv",
+        "name": "egrisitv",
         "base": "BASE_URL9",
         "path": "gncc-egrisitv/index.m3u8"
     },
@@ -250,12 +235,12 @@
         "path": "gncc-gmtv/index.m3u8"
     },
     {
-        "name": "კოლხეთი 89",
+        "name": "kolkheti89",
         "base": "BASE_URL9",
         "path": "gncc-kolkheti89/index.m3u8"
     },
     {
-        "name": "ბორჯომი tv",
+        "name": "borjomitv",
         "base": "BASE_URL9",
         "path": "gncc-borjomitv/index.m3u8"
     },
@@ -265,82 +250,82 @@
         "path": "gncc-tv9/index.m3u8"
     },
     {
-        "name": "TV მონიტორინგი",
+        "name": "tvmonitoring",
         "base": "BASE_URL9",
         "path": "gncc-tvmonitoring/index.m3u8"
     },
     {
-        "name": "სეზონი Tv",
+        "name": "sezonitv",
         "base": "BASE_URL9",
         "path": "gncc-sezonitv/index.m3u8"
     },
     {
-        "name": "იმერვიზია",
+        "name": "imervizia",
         "base": "BASE_URL9",
         "path": "gncc-imervizia/index.m3u8"
     },
     {
-        "name": "ბოლნელი",
+        "name": "bolneli",
         "base": "BASE_URL9",
         "path": "gncc-bolneli/index.m3u8"
     },
     {
-        "name": "სტარვიზია",
+        "name": "starvision",
         "base": "BASE_URL9",
         "path": "gncc-starvision/index.m3u8"
     },
     {
-        "name": "TV ზარი",
+        "name": "tvzari",
         "base": "BASE_URL9",
         "path": "gncc-tvzari/index.m3u8"
     },
     {
-        "name": "Silk Sport 1",
+        "name": "silksport1",
         "base": "BASE_URL5",
         "path": "silksport1/index.m3u8"
     },
     {
-        "name": "Silk Sport 2",
+        "name": "silksport2",
         "base": "BASE_URL5",
         "path": "silksport2/index.m3u8"
     },
     {
-        "name": "Silk Sport 3",
+        "name": "silksport3",
         "base": "BASE_URL5",
         "path": "silksport3/index.m3u8"
     },
     {
-        "name": "Silk Universal",
+        "name": "silk_sport4",
         "base": "BASE_URL5",
         "path": "myvideo/silk_sport4/index.m3u8"
     },
     {
-        "name": "Silk Documentary",
+        "name": "silkdocumentary",
         "base": "BASE_URL8",
         "path": "silkhollywood/index.m3u8"
     },
     {
-        "name": "Silk Kids",
+        "name": "silkkids",
         "base": "BASE_URL8",
         "path": "silkkids/index.m3u8"
     },
     {
-        "name": "Silk Moviecollection",
+        "name": "silkmoviecollection",
         "base": "BASE_URL8",
         "path": "silkmoviecollection/index.m3u8"
     },
     {
-        "name": "Silk Hollywood",
+        "name": "silkhollywood",
         "base": "BASE_URL8",
         "path": "silkhollywood/index.m3u8"
     },
     {
-        "name": "Formula new",
+        "name": "formula-new",
         "base": "BASE_URL8",
         "path": "formula-new/index.m3u8"
     },
     {
-        "name": "Comedy",
+        "name": "comedy",
         "base": "BASE_URL8",
         "path": "comedy/index.m3u8"
     },
@@ -507,19 +492,23 @@
     "path": "chveniarkhi/index.m3u8"
   },
   {
-    "name": "Setanta Sports 1",
+    "name": "setanta_georgia",
     "base": "BASE_URL2",
     "path": "setanta_georgia/index.m3u8"
   },
   {
-    "name": "Setanta Sports 2",
+    "name": "setanta_sports_plus_georgia",
     "base": "BASE_URL2",
     "path": "setanta_sports_plus_georgia/index.m3u8"
   },
   {
-    "name": "Setanta Sports 3",
+    "name": "setanta_sports_3",
     "base": "BASE_URL2",
     "path": "setanta_sports_3/index.m3u8"
+  },
+    {
+    "name": "marao",
+    "base": "BASE_URL5",
+    "path": "marao/index.m3u8"
   }
 ]
-
