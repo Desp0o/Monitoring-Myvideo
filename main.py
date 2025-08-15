@@ -82,20 +82,14 @@ def is_stream_down_hash(screenshot_path, reference_paths, threshold=15):
 # 📤 შეტყობინება დისკორდზე
 def send_to_discord(message):
     if not DISCORD_WEBHOOK_URL.startswith("https://discord.com"):
-        print("⚠️ Discord Webhook URL არ არის სწორად მითითებული.")
         return
 
     data = {
         "content": message
     }
-    try:
-        response = requests.post(DISCORD_WEBHOOK_URL, json=data)
-        if response.status_code == 204:
-            print("📨 შეტყობინება გაგზავნილია დისკორდზე")
-        else:
-            print(f"⚠️ Discord error: {response.status_code}")
-    except Exception as e:
-        print(f"⚠️ Discord exception: {e}")
+
+    response = requests.post(DISCORD_WEBHOOK_URL, json=data)
+        
 
 # დროის შტამპი        
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -114,20 +108,20 @@ def monitor_streams():
     for name, url in streams.items():
         base_key = next((item["base"] for item in streams_data if item["name"] == name), None)
 
-        print(f"\n🔍 {name} შემოწმება...")
+
         success = take_screenshot(url, screenshot_file)
         if not success:
-            print(f"{name} ❌ სტრიმი მიუწვდომელია")
+
             messages.append(f"⚠️ {name} \n {WEB_DOMAIN}{name} \n {base_urls.get(base_key)} \n")
             totalUnreached += 1
             continue
 
         if is_stream_down_hash(screenshot_file, reference_imgs):
-            print(f"{name} 🔴")
+
             totalDown += 1
             messages.append(f"🔴 {name} \n {WEB_DOMAIN}{name} \n {base_urls.get(base_key)} \n")
         else:
-            print(f"{name} 🟢")
+
             totalActive += 1
             # messages.append(f"{name} 🟢")
 
