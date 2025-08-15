@@ -118,7 +118,7 @@ def monitor_streams():
         success = take_screenshot(url, screenshot_file)
         if not success:
             print(f"{name} ❌ სტრიმი მიუწვდომელია")
-            # messages.append(f"⚠️ {name} \n {WEB_DOMAIN}{name} \n {base_urls.get(base_key)} \n")
+            messages.append(f"⚠️ {name} \n {WEB_DOMAIN}{name} \n {base_urls.get(base_key)} \n")
             totalUnreached += 1
             continue
 
@@ -141,5 +141,6 @@ def monitor_streams():
      
     send_to_discord("\n".join(messages))
 
-if __name__ == "__main__":
+while True:
     monitor_streams()
+    time.sleep(30 * 60)
